@@ -4,10 +4,10 @@
   display: inline-flex;
   align-items: center;
   border: none;
-  color: #fff;
+  color: rgb(250, 250, 252);
   font-size: var(--font-sm);
   cursor: pointer;
-  border: 1px solid var(--dark-blue-border);
+  border: 2px solid var(--dark-blue-border);
   border-radius: var(--border-radius-sm);
 
   .btn-icon {

@@ -27,8 +27,8 @@
   position: relative;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
-  background: transparent 0% 0% no-repeat padding-box;
-  border-bottom: 1px solid #ffffff10;
+  background: #ffffff00 0% 0% no-repeat;
+  border-bottom: 1px solid #ffffff0a;
 }
 
 .App-header.large::after {
@@ -157,7 +157,7 @@
   position: relative;
   border: 1px solid #1e2136;
   border-radius: 0.4rem;
-  background: #16182e;
+  background-image: linear-gradient(#fcfafa, #40aed9);
   font-size: var(--font-base);
 }
 
@@ -291,7 +291,7 @@
   line-height: 2.1rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: #0e0d0d;
 }
 
 .App-card-info-subtitle {
@@ -491,7 +491,7 @@ button.App-connect-wallet:hover {
 }
 
 .Page-description {
-  color: #b7b7bd;
+  color: #efeff3;
   line-height: 2.15rem;
   font-size: var(--font-base);
 }
@@ -536,7 +536,7 @@ button.App-connect-wallet:hover {
 
 .App-card {
   padding: 1.5rem 1.5rem 1.86rem;
-  border: 1px solid #1e2136;
+  border: 1px solid rgb(242, 242, 245);
   border-radius: 0.4rem;
   font-size: var(--font-base);
 }
@@ -546,7 +546,7 @@ button.App-connect-wallet:hover {
   line-height: 2.1rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: #0a0a0a;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -604,7 +604,7 @@ button.App-connect-wallet:hover {
 
 .App-header-link-main img {
   display: inline-block;
-  height: 2.15rem;
+  height: 5.15rem;
   vertical-align: middle;
 }
 
@@ -637,7 +637,7 @@ button.App-connect-wallet:hover {
 .App-header-container-left a {
   padding: 1.8rem 1.7rem;
   display: block;
-  color: #a0a3c4;
+  color: #767891;
   font-size: var(--font-base);
   line-height: 1.8rem;
   font-weight: normal;
@@ -791,7 +791,7 @@ a.App-cta,
 button.App-cta {
   color: white;
   text-decoration: none;
-  background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
+  background: linear-gradient(90deg, rgb(193, 193, 196) 0%, rgb(45, 151, 223) 100%);
   /* box-shadow: 0 0 0.4rem 0.6rem rgba(45,66,252,0.15); */
 }
 

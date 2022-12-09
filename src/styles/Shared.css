@@ -7,7 +7,7 @@ body,
   padding: 0;
   color: white;
   font-size: 10px;
-  background-color: #101124;
+  background-image: linear-gradient( to right, #c4c4c4, #75e3ff);
 }
 
 body {
@@ -201,13 +201,13 @@ a.plain {
 }
 
 .default-btn {
-  background: #2d42fc;
+  background: #f7f8f8;
   border-radius: 4px;
   font-size: var(--font-sm);
   line-height: 2rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff !important;
+  color: #080808 !important;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
   /* padding: 9px 16px!important; */
