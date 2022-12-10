@@ -791,16 +791,6 @@ a.App-cta,
 button.App-cta {
   color: white;
   text-decoration: none;
-<<<<<<< HEAD
-  background: linear-gradient(90deg, rgb(193, 193, 196) 0%, rgb(45, 151, 223) 100%);
-  /* box-shadow: 0 0 0.4rem 0.6rem rgba(45,66,252,0.15); */
-}
-
-a.App-cta:hover,
-button.App-cta:hover:enabled {
-  background: linear-gradient(90deg, rgba(58, 78, 252, 1) 0%, rgba(51, 68, 222, 1) 100%);
-  box-shadow: 0 0 0.4rem 0.6rem rgba(45, 66, 252, 0.2);
-=======
   background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
   &:hover:enabled {
     background: var(--primary-btn-hover);
@@ -808,7 +798,6 @@ button.App-cta:hover:enabled {
   &:active:enabled {
     background: var(--primary-btn-active);
   }
->>>>>>> 5c8d69e879335f044644d2c740cd2c75c10759d1
 }
 
 .App-cta.small {
