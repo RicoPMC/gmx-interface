@@ -536,7 +536,7 @@ button.App-connect-wallet:hover {
 
 .App-card {
   padding: 1.5rem 1.5rem 1.86rem;
-  border: 1px solid rgb(242, 242, 245);
+  border: 1px solid rgb(245, 245, 249);
   border-radius: 0.4rem;
   font-size: var(--font-base);
 }
@@ -791,6 +791,7 @@ a.App-cta,
 button.App-cta {
   color: white;
   text-decoration: none;
+<<<<<<< HEAD
   background: linear-gradient(90deg, rgb(193, 193, 196) 0%, rgb(45, 151, 223) 100%);
   /* box-shadow: 0 0 0.4rem 0.6rem rgba(45,66,252,0.15); */
 }
@@ -799,6 +800,15 @@ a.App-cta:hover,
 button.App-cta:hover:enabled {
   background: linear-gradient(90deg, rgba(58, 78, 252, 1) 0%, rgba(51, 68, 222, 1) 100%);
   box-shadow: 0 0 0.4rem 0.6rem rgba(45, 66, 252, 0.2);
+=======
+  background: linear-gradient(90deg, rgba(45, 66, 252, 1) 0%, rgba(46, 61, 205, 1) 100%);
+  &:hover:enabled {
+    background: var(--primary-btn-hover);
+  }
+  &:active:enabled {
+    background: var(--primary-btn-active);
+  }
+>>>>>>> 5c8d69e879335f044644d2c740cd2c75c10759d1
 }
 
 .App-cta.small {
@@ -849,8 +859,12 @@ button.App-button-option {
 
 a.App-button-option:hover,
 button.App-button-option:hover:enabled {
-  background: linear-gradient(90deg, rgba(58, 78, 252, 1) 0%, rgba(51, 68, 222, 1) 100%);
-  box-shadow: 0 0 0.4rem 0.6rem rgba(45, 66, 252, 0.2);
+  background: rgb(54, 69, 117);
+}
+
+a.App-button-option:active,
+button.App-button-option:active:enabled {
+  background: rgb(64, 82, 141);
 }
 
 button.App-button-option:disabled {
