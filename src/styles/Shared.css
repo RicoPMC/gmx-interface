@@ -7,7 +7,7 @@ body,
   padding: 0;
   color: white;
   font-size: 10px;
-  background-image: linear-gradient( to right, #c4c4c4, #75e3ff);
+  background-image: linear-gradient( to right, #c4c4c4, #75e3ff9c);
 }
 
 body {
