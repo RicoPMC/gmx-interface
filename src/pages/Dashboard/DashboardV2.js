@@ -522,11 +522,11 @@ export default function DashboardV2() {
             </div>
             <div className="Page-description">
               <Trans>
-                {chainName} Total Stats start from {totalStatsStartDate}.<br /> For detailed stats:
+                {chainName} Forked data Stats start from {totalStatsStartDate}.<br /> To Earn fees from the platforms Offical pools:
               </Trans>{" "}
-              {chainId === ARBITRUM && <ExternalLink href="https://stats.gmx.io">https://stats.gmx.io</ExternalLink>}
+              {chainId === ARBITRUM && <ExternalLink href="https://pulsemarketcap-info.gitbook.io">https://pulsemarketcap-info.gitbook.io</ExternalLink>}
               {chainId === AVALANCHE && (
-                <ExternalLink href="https://stats.gmx.io/avalanche">https://stats.gmx.io/avalanche</ExternalLink>
+                <ExternalLink href="https://pulsemarketcap-info.gitbook.io">https://pulsemarketcap-info.gitbook.io</ExternalLink>
               )}
               .
             </div>
@@ -536,7 +536,7 @@ export default function DashboardV2() {
           <div className="DashboardV2-cards">
             <div className="App-card">
               <div className="App-card-title">
-                <Trans>Overview</Trans>
+                <Trans>Forked  liquidity</Trans>
               </div>
               <div className="App-card-divider"></div>
               <div className="App-card-content">
@@ -549,14 +549,14 @@ export default function DashboardV2() {
                       handle={`$${formatAmount(tvl, USD_DECIMALS, 0, true)}`}
                       position="right-bottom"
                       renderContent={() => (
-                        <span>{t`Assets Under Management: GMX staked (All chains) + GLP pool (${chainName}).`}</span>
+                        <span>{t`Assets Under Management:See the presale page to get involved in the new pools (${chainName}).`}</span>
                       )}
                     />
                   </div>
                 </div>
                 <div className="App-card-row">
                   <div className="label">
-                    <Trans>GLP Pool</Trans>
+                    <Trans>LPC Forked Pool</Trans>
                   </div>
                   <div>
                     <TooltipComponent
@@ -564,9 +564,9 @@ export default function DashboardV2() {
                       position="right-bottom"
                       renderContent={() => (
                         <Trans>
-                          <p>Total value of tokens in GLP pool ({chainName}).</p>
+                          <p>Forked LPC pool/to enter our sac/presale ({chainName}).</p>
                           <p>
-                            Other websites may show a higher value as they add positions' collaterals to the GLP pool.
+                            Other websites may show a higher value as they add positions' collaterals to the LPC pool.
                           </p>
                         </Trans>
                       )}
@@ -729,7 +729,7 @@ export default function DashboardV2() {
               {chainId === ARBITRUM && <img src={arbitrum24Icon} alt="arbitrum24Icon" />}
             </div>
             <div className="Page-description">
-              <Trans>Platform and GLP index tokens.</Trans>
+              <Trans>Platform and LPC index tokens.</Trans>
             </div>
           </div>
           <div className="DashboardV2-token-cards">
@@ -742,8 +742,8 @@ export default function DashboardV2() {
                         <img src={gmx40Icon} alt="GMX Token Icon" />
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GMX</div>
-                        <div className="App-card-title-mark-subtitle">GMX</div>
+                        <div className="App-card-title-mark-title">ORCA</div>
+                        <div className="App-card-title-mark-subtitle">Orca forked stats</div>
                       </div>
                       <div>
                         <AssetDropdown assetSymbol="GMX" />
@@ -785,7 +785,7 @@ export default function DashboardV2() {
                       <div className="label">
                         <Trans>Supply</Trans>
                       </div>
-                      <div>{formatAmount(totalGmxSupply, GMX_DECIMALS, 0, true)} GMX</div>
+                      <div>{formatAmount(totalGmxSupply, GMX_DECIMALS, 0, true)} ORCA</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
@@ -872,8 +872,8 @@ export default function DashboardV2() {
                         )}
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GLP</div>
-                        <div className="App-card-title-mark-subtitle">GLP</div>
+                        <div className="App-card-title-mark-title">LPC</div>
+                        <div className="App-card-title-mark-subtitle">LPC forked stats</div>
                       </div>
                       <div>
                         <AssetDropdown assetSymbol="GLP" />
@@ -949,7 +949,7 @@ export default function DashboardV2() {
                         ))}
                       </Pie>
                       <text x={"50%"} y={"50%"} fill="white" textAnchor="middle" dominantBaseline="middle">
-                        GLP Pool
+                        LPC Pool
                       </text>
                       <Tooltip content={<CustomTooltip />} />
                     </PieChart>
@@ -959,7 +959,7 @@ export default function DashboardV2() {
             </div>
             <div className="token-table-wrapper App-card">
               <div className="App-card-title">
-                <Trans>PLP Index Composition</Trans>{" "}
+                <Trans> Index Composition</Trans>{" "}
                 {chainId === AVALANCHE && <img src={avalanche16Icon} alt={t`Avalanche Icon`} />}
                 {chainId === ARBITRUM && <img src={arbitrum16Icon} alt={t`Arbitrum Icon`} />}
               </div>
