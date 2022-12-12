@@ -439,7 +439,7 @@ export default function DashboardV2() {
     },
   ];
 
-  const totalStatsStartDate = chainId === AVALANCHE ? t`06 Jan 2022` : t`01 Sep 2021`;
+  
 
   let stableGlp = 0;
   let totalGlp = 0;
