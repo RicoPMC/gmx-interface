@@ -549,14 +549,14 @@ export default function DashboardV2() {
                       handle={`$${formatAmount(tvl, USD_DECIMALS, 0, true)}`}
                       position="right-bottom"
                       renderContent={() => (
-                        <span>{t`Assets Under Management: GMX staked (All chains) + GLP pool (${chainName}).`}</span>
+                        <span>{t`Assets Under Management:Forked liquity we will be launching our own via sacphase/presale(All chains) (${chainName}).`}</span>
                       )}
                     />
                   </div>
                 </div>
                 <div className="App-card-row">
                   <div className="label">
-                    <Trans>GLP Pool</Trans>
+                    <Trans>Forked pool</Trans>
                   </div>
                   <div>
                     <TooltipComponent
@@ -564,9 +564,9 @@ export default function DashboardV2() {
                       position="right-bottom"
                       renderContent={() => (
                         <Trans>
-                          <p>Total value of tokens in GLP pool ({chainName}).</p>
+                          <p>Total value of tokens in EXPMC forked pool ({chainName}).</p>
                           <p>
-                            Other websites may show a higher value as they add positions' collaterals to the GLP pool.
+                            Other websites may show a higher value as they add positions' collaterals to the LPC pool.
                           </p>
                         </Trans>
                       )}
@@ -742,11 +742,11 @@ export default function DashboardV2() {
                         <img src={gmx40Icon} alt="GMX Token Icon" />
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GMX</div>
-                        <div className="App-card-title-mark-subtitle">GMX</div>
+                        <div className="App-card-title-mark-title">ORCA</div>
+                        <div className="App-card-title-mark-subtitle">Orca</div>
                       </div>
                       <div>
-                        <AssetDropdown assetSymbol="GMX" />
+                        <AssetDropdown assetSymbol="ORCA" />
                       </div>
                     </div>
                   </div>
