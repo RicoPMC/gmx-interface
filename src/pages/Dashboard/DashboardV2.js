@@ -742,8 +742,8 @@ export default function DashboardV2() {
                         <img src={gmx40Icon} alt="GMX Token Icon" />
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GMX</div>
-                        <div className="App-card-title-mark-subtitle">GMX</div>
+                        <div className="App-card-title-mark-title">EXPMC</div>
+                        <div className="App-card-title-mark-subtitle">EXPMC</div>
                       </div>
                       <div>
                         <AssetDropdown assetSymbol="GMX" />
@@ -872,8 +872,8 @@ export default function DashboardV2() {
                         )}
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GLP</div>
-                        <div className="App-card-title-mark-subtitle">GLP</div>
+                        <div className="App-card-title-mark-title">LPC</div>
+                        <div className="App-card-title-mark-subtitle">LPC</div>
                       </div>
                       <div>
                         <AssetDropdown assetSymbol="GLP" />
