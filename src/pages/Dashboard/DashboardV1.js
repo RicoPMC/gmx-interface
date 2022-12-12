@@ -458,7 +458,7 @@ export default function DashboardV1() {
         <div className="Dashboard-token-list Dashboard-list">
           <div className="Dashboard-token-card usdg App-card primary">
             <div className="Dashboard-token-title App-card-title">
-              <div className="Dashboard-token-title-text">USDP</div>
+              <div className="Dashboard-token-title-text">USDG</div>
               <div className="Dashboard-token-title-options">
                 <img
                   src={metamaskImg}
@@ -505,7 +505,7 @@ export default function DashboardV1() {
           </div>
           <div className="Dashboard-token-card App-card">
             <div className="Dashboard-token-title App-card-title">
-              <div className="Dashboard-token-title-text">PMCT</div>
+              <div className="Dashboard-token-title-text">GMT</div>
               <div className="Dashboard-token-title-options">
                 <img
                   src={metamaskImg}
@@ -552,7 +552,7 @@ export default function DashboardV1() {
           </div>
           <div className="Dashboard-token-card App-card">
             <div className="Dashboard-token-title App-card-title">
-              <div className="Dashboard-token-title-text">xPMCT</div>
+              <div className="Dashboard-token-title-text">xGMT</div>
               <div className="Dashboard-token-title-options">
                 <img
                   src={metamaskImg}
