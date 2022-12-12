@@ -370,7 +370,7 @@ export default function DashboardV2() {
                     <br />
                     Get lower fees to{" "}
                     <Link to="/buy_glp" target="_blank" rel="noopener noreferrer">
-                      buy GLP
+                      buy LPC
                     </Link>{" "}
                     with {tokenInfo.symbol},&nbsp; and to{" "}
                     <Link to="/trade" target="_blank" rel="noopener noreferrer">
@@ -396,7 +396,7 @@ export default function DashboardV2() {
               )}
               <br />
               <div>
-                <ExternalLink href="https://gmxio.gitbook.io/gmx/glp">
+                <ExternalLink href="https://pulsemarketcap-info.gitbook.io">
                   <Trans>More Info</Trans>
                 </ExternalLink>
               </div>
@@ -517,12 +517,12 @@ export default function DashboardV2() {
           <div className="section-title-icon"></div>
           <div className="section-title-content">
             <div className="Page-title">
-              <Trans>Stats</Trans> {chainId === AVALANCHE && <img src={avalanche24Icon} alt="avalanche24Icon" />}
+              <Trans>EXPMC Forked Stats</Trans> {chainId === AVALANCHE && <img src={avalanche24Icon} alt="avalanche24Icon" />}
               {chainId === ARBITRUM && <img src={arbitrum24Icon} alt="arbitrum24Icon" />}
             </div>
             <div className="Page-description">
               <Trans>
-                {chainName} Forked data Stats start from {totalStatsStartDate}.<br /> To Earn fees from the platforms Offical pools:
+                 We have cultivated liquidty for EXPMC.<br /> To Earn fees from the platforms Offical pools:
               </Trans>{" "}
               {chainId === ARBITRUM && <ExternalLink href="https://pulsemarketcap-info.gitbook.io">https://pulsemarketcap-info.gitbook.io</ExternalLink>}
               {chainId === AVALANCHE && (
