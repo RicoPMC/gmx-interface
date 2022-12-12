@@ -419,8 +419,8 @@ export default function ClaimEsGmx({ setPendingTxns }) {
             {!error && (
               <div className="muted">
                 <Trans>
-                  You can currently vest a maximum of {formatAmount(maxVestableAmount, 18, 2, true)} esGMX tokens at a
-                  ratio of {formatAmount(currentRatio, 4, 2, true)} {stakingToken} to 1 esGMX.
+                  You can currently vest a maximum of {formatAmount(maxVestableAmount, 18, 2, true)} esORCA tokens at a
+                  ratio of {formatAmount(currentRatio, 4, 2, true)} {stakingToken} to 1 esORCA.
                 </Trans>
                 {shouldShowStakingAmounts && `${formatAmount(initialStakingAmount, 18, 2, true)}.`}
                 <br />
