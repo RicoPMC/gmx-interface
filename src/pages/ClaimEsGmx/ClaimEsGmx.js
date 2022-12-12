@@ -331,7 +331,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
     <div className="ClaimEsGmx Page page-layout">
       <div className="Page-title-section mt-0">
         <div className="Page-title">
-          <Trans>Claim esGMX</Trans>
+          <Trans>Claim esORCA</Trans>
         </div>
         {!isArbitrum && (
           <div className="Page-description">
@@ -343,13 +343,13 @@ export default function ClaimEsGmx({ setPendingTxns }) {
           <div>
             <div className="Page-description">
               <br />
-              <Trans>You have {formatAmount(esGmxIouBalance, 18, 2, true)} esGMX (IOU) tokens.</Trans>
+              <Trans>You have {formatAmount(esGmxIouBalance, 18, 2, true)} esORCA (IOU) tokens.</Trans>
               <br />
               <br />
-              <Trans>The address of the esGMX (IOU) token is {esGmxIouAddress}.</Trans>
+              <Trans>The address of the esORCA (IOU) token is {esGmxIouAddress}.</Trans>
               <br />
               <Trans>
-                The esGMX (IOU) token is transferrable. You can add the token to your wallet and send it to another
+                The esORCA (IOU) token is transferrable. You can add the token to your wallet and send it to another
                 address to claim if you'd like.
               </Trans>
               <br />
@@ -361,10 +361,10 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 days.
               </Trans>
               <br />
-              <Trans>The esGMX tokens can be staked or vested at any time.</Trans>
+              <Trans>The esORCA tokens can be staked or vested at any time.</Trans>
               <br />
               <Trans>
-                Your esGMX (IOU) balance will decrease by your claim amount after claiming, this is expected behaviour.
+                Your esORCA (IOU) balance will decrease by your claim amount after claiming, this is expected behaviour.
               </Trans>
               <br />
               <Trans>
@@ -380,7 +380,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 setIsChecked={() => setSelectedOption(VEST_WITH_GMX_ARB)}
               >
                 <div className="ClaimEsGmx-option-label">
-                  <Trans>Vest with GMX on Arbitrum</Trans>
+                  <Trans>Vest with ORCA on Arbitrum</Trans>
                 </div>
                 <img src={arbitrumIcon} alt="Arbitrum" />
               </Checkbox>
@@ -390,7 +390,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 setIsChecked={() => setSelectedOption(VEST_WITH_GLP_ARB)}
               >
                 <div className="ClaimEsGmx-option-label">
-                  <Trans>Vest with GLP on Arbitrum</Trans>
+                  <Trans>Vest with LPC on Arbitrum</Trans>
                 </div>
                 <img src={arbitrumIcon} alt="Arbitrum" />
               </Checkbox>
@@ -400,7 +400,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 setIsChecked={() => setSelectedOption(VEST_WITH_GMX_AVAX)}
               >
                 <div className="ClaimEsGmx-option-label">
-                  <Trans>Vest with GMX on Avalanche</Trans>
+                  <Trans>Vest with ORCA on Avalanche</Trans>
                 </div>
                 <img src={avaIcon} alt="Avalanche" />
               </Checkbox>
@@ -410,7 +410,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 setIsChecked={() => setSelectedOption(VEST_WITH_GLP_AVAX)}
               >
                 <div className="ClaimEsGmx-option-label avalanche">
-                  <Trans>Vest with GLP on Avalanche</Trans>
+                  <Trans>Vest with LPC on Avalanche</Trans>
                 </div>
                 <img src={avaIcon} alt="Avalanche" />
               </Checkbox>
@@ -426,7 +426,7 @@ export default function ClaimEsGmx({ setPendingTxns }) {
                 <br />
                 <Trans>
                   After claiming you will be able to vest a maximum of {formatAmount(nextMaxVestableEsGmx, 18, 2, true)}{" "}
-                  esGMX at a ratio of {formatAmount(nextRatio, 4, 2, true)} {stakingToken} to 1 esGMX.
+                  esORCA at a ratio of {formatAmount(nextRatio, 4, 2, true)} {stakingToken} to 1 esORCA.
                 </Trans>
                 {shouldShowStakingAmounts && `${formatAmount(nextStakingAmount, 18, 2, true)}.`}
                 <br />

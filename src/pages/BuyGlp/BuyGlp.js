@@ -32,11 +32,11 @@ export default function BuyGlp(props) {
         </div>
         <div className="section-title-content">
           <div className="Page-title">
-            <Trans>Buy / Sell GLP</Trans>
+            <Trans>Buy / Sell LPC</Trans>
           </div>
           <div className="Page-description">
             <Trans>
-              Purchase <ExternalLink href="https://gmxio.gitbook.io/gmx/glp">GLP tokens</ExternalLink> to earn{" "}
+              Purchase <ExternalLink href="https://pulsemarketcap-info.gitbook.io">LPC tokens</ExternalLink> to earn{" "}
               {nativeTokenSymbol} fees from swaps and leverages trading.
             </Trans>
             <br />
