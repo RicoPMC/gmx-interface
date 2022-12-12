@@ -280,7 +280,7 @@ export const appEventsData: EventData[] = [
   // },
   {
     id: "glp-manager-updates",
-    title: "PMCEX Forked liquidity Manager Updates",
+    title: "GLP Manager Updates",
     isActive: true,
     validTill: "18 Dec 2022, 12:00",
     bodyText:
