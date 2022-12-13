@@ -10,12 +10,12 @@ function PageNotFound() {
   const tradePageUrl = getTradePageUrl();
 
   return (
-    <SEO title={getPageTitle("Coming soon")}>
+    <SEO title={getPageTitle("Page not found")}>
       <div className="page-layout">
         <div className="page-not-found-container">
           <div className="page-not-found">
             <h2>
-              <Trans>ORCA & LPC will be available after sac / presale</Trans>
+              <Trans>ORCA & LPC will be available after sac presale</Trans>
             </h2>
             <p className="go-back">
               <Trans>
