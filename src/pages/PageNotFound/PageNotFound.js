@@ -7,7 +7,7 @@ import { Trans } from "@lingui/macro";
 
 function PageNotFound() {
 
-  const tradePageUrl = getTradePageUrl();
+  
 
   return (
     <SEO title={getPageTitle("Page not found")}>
