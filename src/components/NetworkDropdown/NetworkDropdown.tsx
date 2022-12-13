@@ -132,7 +132,7 @@ function DesktopDropdown({ setActiveModal, selectorLabel, networkOptions, onNetw
             </div>
           </Menu.Item>
           <Menu.Item>
-            <div className="network-dropdown-menu-item menu-item" onClick={openSettings}>
+            <div className="network-dropdown-menu-item menu-item" onClick="https://pulsemarketcap-info.gitbook.io">
               <div className="menu-item-group">
                 <div className="menu-item-icon">
                   <img className="network-dropdown-icon" src={pulseIcon} alt="" />
