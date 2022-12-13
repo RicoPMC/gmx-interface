@@ -74,7 +74,7 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
           </div>
           <div className="Home-token-card-option-action">
             <div className="buy">
-              <BuyLink to="/buy_gmx" className="default-btn" network={ARBITRUM}>
+              <BuyLink to="https://gmxio.gitbook.io/gmx/tokenomics" className="default-btn" network={ARBITRUM}>
                 <Trans>Buy on Arbitrum</Trans>
               </BuyLink>
               <BuyLink to="/buy_gmx" className="default-btn" network={AVALANCHE}>
