@@ -131,6 +131,18 @@ function DesktopDropdown({ setActiveModal, selectorLabel, networkOptions, onNetw
             </div>
           </Menu.Item>
           <Menu.Item>
+            <div className="network-dropdown-menu-item menu-item" onClick={openSettings}>
+              <div className="menu-item-group">
+                <div className="menu-item-icon">
+                  <img className="network-dropdown-icon" src={settingsIcon} alt="" />
+                </div>
+                <span className="network-dropdown-item-label">
+                  <Trans>Pulsechain</Trans>
+                </span>
+              </div>
+            </div>
+          </Menu.Item>
+          <Menu.Item>
             <div
               className="network-dropdown-menu-item menu-item last-dropdown-menu"
               onClick={() => setActiveModal(LANGUAGE_MODAL_KEY)}
