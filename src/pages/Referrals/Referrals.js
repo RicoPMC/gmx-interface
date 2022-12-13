@@ -117,19 +117,19 @@ function Referrals({ connectWallet, setPendingTxns, pendingTxns }) {
           <div className="section-title-icon" />
           <div className="section-title-content">
             <div className="Page-title">
-              <Trans>ORCA LPC Sac/Presale</Trans>
+              <Trans>ORCA-LPC  Sac/Presale</Trans>
             </div>
             <div className="Page-description">
               <Trans>
                 We are Excited to announce the launch of our own liqidity pools on eth and pulsechain use the linkbelow to get involved.
                 <br />
-                For more information, please read the{" "}
-                <ExternalLink href="https://gmxio.gitbook.io/gmx/referrals">referral program details</ExternalLink>.
+                For more information, use this link for{" "}
+                <ExternalLink href="https://pulsemarketcap-info.gitbook.io">Sacrifice-Presale details</ExternalLink>.
               </Trans>
             </div>
           </div>
         </div>
-        <div className="referral-tab-container">
+        <div className="referral-tab-container"> 
           <Tab
             options={TAB_OPTIONS}
             optionLabels={TAB_OPTION_LABELS}
