@@ -1361,7 +1361,7 @@ export function getProcessedData(
 
 export function getPageTitle(data) {
   return `${data} | Decentralized
-  Perpetual Exchange | GMX`;
+  Perpetual Exchange | EXPMC`;
 }
 
 export function isHashZero(value) {
@@ -1384,7 +1384,7 @@ export function getHomeUrl() {
     return "http://localhost:3010";
   }
 
-  return "https://gmx.io";
+  return "https://expmc.netlify.app";
 }
 
 export function getAppBaseUrl() {
