@@ -3,7 +3,7 @@ import Footer from "components/Footer/Footer";
 import { getPageTitle } from "lib/legacy";
 import "./PageNotFound.css";
 import { Trans } from "@lingui/macro";
-import { getHomeUrl, getTradePageUrl } from "lib/legacy";
+
 
 function PageNotFound() {
 
