@@ -9,6 +9,7 @@ import language24Icon from "img/ic_language24.svg";
 import settingsIcon from "img/ic_settings_16.svg";
 import arbitrumIcon from "img/ic_arbitrum_24.svg";
 import avaxIcon from "img/ic_avalanche_24.svg";
+import pulseIcon from "img/pulse.svg";
 import { importImage } from "lib/legacy";
 import { defaultLocale } from "lib/i18n";
 import { LANGUAGE_LOCALSTORAGE_KEY } from "config/localStorage";
@@ -134,7 +135,7 @@ function DesktopDropdown({ setActiveModal, selectorLabel, networkOptions, onNetw
             <div className="network-dropdown-menu-item menu-item" onClick={openSettings}>
               <div className="menu-item-group">
                 <div className="menu-item-icon">
-                  <img className="network-dropdown-icon" src={settingsIcon} alt="" />
+                  <img className="network-dropdown-icon" src={pulseIcon} alt="" />
                 </div>
                 <span className="network-dropdown-item-label">
                   <Trans>Pulsechain</Trans>
