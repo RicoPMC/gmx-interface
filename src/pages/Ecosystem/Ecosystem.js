@@ -26,33 +26,20 @@ const NETWORK_ICON_ALTS = {
 export default function Ecosystem() {
   const gmxPages = [
     {
-      title: "GMX Governance",
-      link: "https://gov.gmx.io/",
-      linkLabel: "gov.gmx.io",
-      about: t`GMX Governance Page`,
+      title: "EXPMC Sacrifce",
+      link: "https://pulsemarketcap-info.gitbook.io",
+      linkLabel: "Start earning fees via pulsechain",
+      about: t`Here you have the opportunity to contribute to our pulsechain liquidty pool and earn fees from the platform`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Stats",
-      link: "https://stats.gmx.io/",
-      linkLabel: "stats.gmx.io",
-      about: t`GMX Stats Page`,
+      title: "EXPMC Presale",
+      link: "https://pulsemarketcap-info.gitbook.io",
+      linkLabel: "Start earning fees via Eth",
+      about: t`Here you have the opportunity to contribute to our Ethereum liquidty pool and earn fees from the platform`,
       chainIds: [ARBITRUM, AVALANCHE],
     },
-    {
-      title: "GMX Proposals",
-      link: "https://snapshot.org/#/gmx.eth",
-      linkLabel: "snapshot.org",
-      about: t`GMX Proposals Voting page`,
-      chainIds: [ARBITRUM, AVALANCHE],
-    },
-    {
-      title: "GMX Announcements",
-      link: "https://t.me/GMX_Announcements",
-      linkLabel: "t.me",
-      about: t`GMX Announcements and Updates`,
-      chainIds: [ARBITRUM, AVALANCHE],
-    },
+ 
   ];
 
   const communityProjects = [
@@ -149,7 +136,7 @@ export default function Ecosystem() {
                 <Trans>PMC Pages</Trans>
               </div>
               <div className="Page-description">
-                <Trans>GMX ecosystem pages.</Trans>
+                <Trans>EXPMC ecosystem pages.</Trans>
               </div>
             </div>
           </div>
@@ -192,7 +179,7 @@ export default function Ecosystem() {
               <Trans>Community Projects</Trans>
             </div>
             <div className="Page-description">
-              <Trans>Projects developed by the GMX community.</Trans>
+              <Trans>Projects developed by the EXPMC community.</Trans>
             </div>
           </div>
           <div className="DashboardV2-projects">
@@ -242,7 +229,7 @@ export default function Ecosystem() {
               <Trans>Dashboards</Trans>
             </div>
             <div className="Page-description">
-              <Trans>GMX dashboards and analytics.</Trans>
+              <Trans>EXPMC dashboards and analytics.</Trans>
             </div>
           </div>
           <div className="DashboardV2-projects">
