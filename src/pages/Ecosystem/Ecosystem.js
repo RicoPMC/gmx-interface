@@ -372,16 +372,16 @@ export default function Ecosystem() {
 
   const telegramGroups = [
     {
-      title: "GMX",
-      link: "https://t.me/GMX_IO",
+      title: "EXPMC",
+      link: "https://t.me/EX_PMC",
       linkLabel: "t.me",
       about: t`Telegram Group`,
     },
     {
-      title: "GMX (Chinese)",
-      link: "https://t.me/gmxch",
+      title: "PMC",
+      link: "https://t.me/Officialpulsemarketcap",
       linkLabel: "t.me",
-      about: t`Telegram Group (Chinese)`,
+      about: t`Telegram Group `,
     },
     {
       title: "GMX (Portuguese)",
@@ -405,7 +405,7 @@ export default function Ecosystem() {
             <div className="section-title-icon" />
             <div className="section-title-content">
               <div className="Page-title">
-                <Trans>GMX Pages</Trans>
+                <Trans>PMC Pages</Trans>
               </div>
               <div className="Page-description">
                 <Trans>GMX ecosystem pages.</Trans>
