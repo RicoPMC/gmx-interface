@@ -1,4 +1,4 @@
-import SEO from "components/Common/SEO";
+imimport SEO from "components/Common/SEO";
 import Footer from "components/Footer/Footer";
 import { getPageTitle } from "lib/legacy";
 import "./PageNotFound.css";
@@ -15,12 +15,12 @@ function PageNotFound() {
         <div className="page-not-found-container">
           <div className="page-not-found">
             <h2>
-              <Trans>This will be available after the sac/Presales phase</Trans>
+              <Trans>Available after presale/Sacrifice phase</Trans>
             </h2>
             <p className="go-back">
               <Trans>
                 <span>Return to </span>
-                <a href={tradePageUrl}>charts</a> <span>or </span> <a href={tradePageUrl}>Trade</a>
+                <a href={homeUrl}>Homepage</a> <span>or </span> <a href={tradePageUrl}>Trade</a>
               </Trans>
             </p>
           </div>
