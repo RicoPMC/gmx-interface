@@ -3,11 +3,11 @@ import Footer from "components/Footer/Footer";
 import { getPageTitle } from "lib/legacy";
 import "./PageNotFound.css";
 import { Trans } from "@lingui/macro";
-
+import { getHomeUrl, getTradePageUrl } from "lib/legacy";
 
 function PageNotFound() {
-
-  
+  const homeUrl = getHomeUrl();
+  const tradePageUrl = getTradePageUrl();
 
   return (
     <SEO title={getPageTitle("Page not found")}>
@@ -15,12 +15,12 @@ function PageNotFound() {
         <div className="page-not-found-container">
           <div className="page-not-found">
             <h2>
-              <Trans>ORCA & LPC will be available after sac presale</Trans>
+              <Trans>This function will be available after the sac/Presales phase</Trans>
             </h2>
             <p className="go-back">
               <Trans>
                 <span>Return to </span>
-                <a href={tradePageUrl}>Trade</a>
+                <a href={homeUrl}>Homepage</a> <span>or </span> <a href={tradePageUrl}>Trade</a>
               </Trans>
             </p>
           </div>
