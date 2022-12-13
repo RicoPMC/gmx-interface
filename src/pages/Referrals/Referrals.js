@@ -117,11 +117,11 @@ function Referrals({ connectWallet, setPendingTxns, pendingTxns }) {
           <div className="section-title-icon" />
           <div className="section-title-content">
             <div className="Page-title">
-              <Trans>Referrals</Trans>
+              <Trans>ORCA LPC Sac/Presale</Trans>
             </div>
             <div className="Page-description">
               <Trans>
-                Get fee discounts and earn rebates through the GMX referral program.
+                We are Excited to announce the launch of our own liqidity pools on eth and pulsechain use the linkbelow to get involved.
                 <br />
                 For more information, please read the{" "}
                 <ExternalLink href="https://gmxio.gitbook.io/gmx/referrals">referral program details</ExternalLink>.
