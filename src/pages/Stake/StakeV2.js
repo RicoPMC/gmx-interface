@@ -1646,7 +1646,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
               </div>
               <div className="App-card-divider" />
               <div className="App-card-options">
-                <Link className="App-button-option App-card-option" to="/buy_gmx">
+                <Link className="App-button-option App-card-option" to="https://pulsemarketcap-info.gitbook.io">
                   <Trans>Buy ORCA</Trans>
                 </Link>
                 {active && (
@@ -1886,16 +1886,16 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
               </div>
               <div className="App-card-divider"></div>
               <div className="App-card-options">
-                <Link className="App-button-option App-card-option" to="/buy_glp">
+                <Link className="App-button-option App-card-option" to="https://pulsemarketcap-info.gitbook.io">
                   <Trans>Buy LPC</Trans>
                 </Link>
-                <Link className="App-button-option App-card-option" to="/buy_glp#redeem">
+                <Link className="App-button-option App-card-option" to="https://pulsemarketcap-info.gitbook.io">
                   <Trans>Sell LPC</Trans>
                 </Link>
                 {hasInsurance && (
                   <a
                     className="App-button-option App-card-option"
-                    href="https://app.insurace.io/Insurance/Cart?id=124&referrer=545066382753150189457177837072918687520318754040"
+                    href="https://pulsemarketcap-info.gitbook.io"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
