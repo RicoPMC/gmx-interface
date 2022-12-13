@@ -107,6 +107,9 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
               <BuyLink to="/buy_glp" className="default-btn" network={AVALANCHE}>
                 <Trans>Buy on Avalanche</Trans>
               </BuyLink>
+              <BuyLink to="/buy_glp" className="default-btn" network={PULSECHAIN}>
+                <Trans>Buy on Pulsechain</Trans>
+              </BuyLink>
             </div>
             <a
               href="https://pulsemarketcap-info.gitbook.io"
