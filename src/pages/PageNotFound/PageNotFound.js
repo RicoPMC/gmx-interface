@@ -6,7 +6,7 @@ import { Trans } from "@lingui/macro";
 import { getHomeUrl, getTradePageUrl } from "lib/legacy";
 
 function PageNotFound() {
-  const homeUrl = getHomeUrl();
+
   const tradePageUrl = getTradePageUrl();
 
   return (
