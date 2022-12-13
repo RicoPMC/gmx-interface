@@ -67,21 +67,21 @@ export default function Ecosystem() {
 
   const dashboardProjects = [
     {
-      title: "GMX Referrals Dashboard",
+      title: "comming soon",
       link: "https://www.gmxreferrals.com/",
-      linkLabel: "gmxreferrals.com",
-      about: t`Dashboard for GMX referral stats`,
-      creatorLabel: "@kyzoeth",
-      creatorLink: "https://twitter.com/kyzoeth",
+      linkLabel: "coming soon",
+      about: t`check out our telegram for updates`,
+      creatorLabel: "telegram",
+      creatorLink: "https://t.me/EX_PMC",
       chainIds: [ARBITRUM, AVALANCHE],
     },
     {
-      title: "GMX Terminal",
+      title: "Comming soon",
       link: "https://gmxterminal.com",
-      linkLabel: "gmxterminal.com",
-      about: t`GMX explorer for stats and traders`,
-      creatorLabel: "@vipineth",
-      creatorLink: "https://t.me/vipineth",
+      linkLabel: "coming soon",
+      about: t`check out our telegram for updates`,
+      creatorLabel: " telegram",
+      creatorLink: "https://t.me/EX_PMC",
       chainIds: [ARBITRUM],
     },
     
