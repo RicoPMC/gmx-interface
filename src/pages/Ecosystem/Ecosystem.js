@@ -382,18 +382,7 @@ export default function Ecosystem() {
       link: "https://t.me/Officialpulsemarketcap",
       linkLabel: "t.me",
       about: t`Telegram Group `,
-    },
-    {
-      title: "GMX (Portuguese)",
-      link: "https://t.me/GMX_Portuguese",
-      linkLabel: "t.me",
-      about: t`Telegram Group (Portuguese)`,
-    },
-    {
-      title: "GMX Trading Chat",
-      link: "https://t.me/gambittradingchat",
-      linkLabel: "t.me",
-      about: t`GMX community discussion`,
+  
     },
   ];
 
