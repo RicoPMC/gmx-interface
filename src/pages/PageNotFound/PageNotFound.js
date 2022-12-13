@@ -6,7 +6,7 @@ import { Trans } from "@lingui/macro";
 import { getHomeUrl, getTradePageUrl } from "lib/legacy";
 
 function PageNotFound() {
-
+  const homeUrl = getHomeUrl();
   const tradePageUrl = getTradePageUrl();
 
   return (
@@ -20,7 +20,7 @@ function PageNotFound() {
             <p className="go-back">
               <Trans>
                 <span>Return to </span>
-                <a href={tradePageUrl}>Trade</a>
+                <a href={homeUrl}>Homepage</a> <span>or </span> <a href={tradePageUrl}>Trade</a>
               </Trans>
             </p>
           </div>
