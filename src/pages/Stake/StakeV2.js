@@ -312,7 +312,7 @@ function UnstakeModal(props) {
         {burnAmount && burnAmount.gt(0) && rewardReductionBasisPoints && rewardReductionBasisPoints.gt(0) && (
           <div className="Modal-note">
             Unstaking will burn&nbsp;
-            <ExternalLink href="https://gmxio.gitbook.io/gmx/rewards">
+            <ExternalLink href="https://pulsemarketcap-info.gitbook.io">
               {formatAmount(burnAmount, 18, 4, true)} Multiplier Points
             </ExternalLink>
             .&nbsp;
@@ -1315,7 +1315,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
           return (
             <Trans>
               Boost your rewards with Multiplier Points.&nbsp;
-              <ExternalLink href="https://gmxio.gitbook.io/gmx/rewards#multiplier-points">More info</ExternalLink>.
+              <ExternalLink href="https://pulsemarketcap-info.gitbook.io">More info</ExternalLink>.
             </Trans>
           );
         }}
@@ -1647,7 +1647,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
               <div className="App-card-divider" />
               <div className="App-card-options">
                 <Link className="App-button-option App-card-option" to="/buy_gmx">
-                  <Trans>Buy GMX</Trans>
+                  <Trans>Buy ORCA</Trans>
                 </Link>
                 {active && (
                   <button className="App-button-option App-card-option" onClick={() => showStakeGmxModal()}>
@@ -2006,7 +2006,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
               Convert esORCA tokens to ORCA tokens.
               <br />
               Please read the{" "}
-              <ExternalLink href="https://gmxio.gitbook.io/gmx/rewards#vesting">vesting details</ExternalLink> before
+              <ExternalLink href="https://Pulsemarketcap-info.gitbook.io">vesting details</ExternalLink> before
               using the vaults.
             </Trans>
           </div>
@@ -2100,7 +2100,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
                       position="right-bottom"
                       renderContent={() => (
                         <Trans>
-                          {formatKeyAmount(vestingData, "gmxVesterClaimable", 18, 4, true)} GMX tokens can be claimed,
+                          {formatKeyAmount(vestingData, "gmxVesterClaimable", 18, 4, true)} ORCA tokens can be claimed,
                           use the options under the Total Rewards section to claim them.
                         </Trans>
                       )}
@@ -2129,7 +2129,7 @@ export default function StakeV2({ setPendingTxns, connectWallet }) {
             </div>
             <div className="App-card StakeV2-gmx-card">
               <div className="App-card-title">
-                <Trans>GLP Vault</Trans>
+                <Trans>LPC Vault</Trans>
               </div>
               <div className="App-card-divider"></div>
               <div className="App-card-content">
