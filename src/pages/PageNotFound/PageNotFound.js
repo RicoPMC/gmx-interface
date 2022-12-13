@@ -1,4 +1,4 @@
-imimport SEO from "components/Common/SEO";
+import SEO from "components/Common/SEO";
 import Footer from "components/Footer/Footer";
 import { getPageTitle } from "lib/legacy";
 import "./PageNotFound.css";
