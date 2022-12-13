@@ -80,6 +80,9 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
               <BuyLink to="/buy_gmx" className="default-btn" network={AVALANCHE}>
                 <Trans>Buy on Avalanche</Trans>
               </BuyLink>
+              <BuyLink to="/buy_gmx" className="default-btn" network={AVALANCHE}>
+                <Trans>Buy on Pulsechain</Trans>
+              </BuyLink>
             </div>
             <ExternalLink href="https://gmxio.gitbook.io/gmx/tokenomics" className="default-btn read-more">
               <Trans>Read more</Trans>
@@ -107,7 +110,7 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
               <BuyLink to="/buy_glp" className="default-btn" network={AVALANCHE}>
                 <Trans>Buy on Avalanche</Trans>
               </BuyLink>
-              <BuyLink to="/buy_glp" className="default-btn" network={PULSECHAIN}>
+              <BuyLink to="/buy_glp" className="default-btn" network={AVALANCHE}>
                 <Trans>Buy on Pulsechain</Trans>
               </BuyLink>
             </div>
