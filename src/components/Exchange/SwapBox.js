@@ -2410,7 +2410,7 @@ export default function SwapBox(props) {
         <div className="App-card-divider"></div>
         <div className="Exchange-info-row">
           <div className="Exchange-info-label-button">
-            <ExternalLink href="https://gmxio.gitbook.io/gmx/trading">
+            <ExternalLink href="https://pulsemarketcap.info">
               <Trans>Trading guide</Trans>
             </ExternalLink>
           </div>
@@ -2424,7 +2424,7 @@ export default function SwapBox(props) {
         </div>
         <div className="Exchange-info-row">
           <div className="Exchange-info-label-button">
-            <ExternalLink href="https://gmxio.gitbook.io/gmx/trading#backup-rpc-urls">
+            <ExternalLink href="https://pulsemarketcap.info">
               <Trans>Speed up page loading</Trans>
             </ExternalLink>
           </div>
