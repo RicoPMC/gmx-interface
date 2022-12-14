@@ -2295,7 +2295,7 @@ export default function SwapBox(props) {
                         top right of the page after connecting your wallet.
                         <br />
                         <br />
-                        <ExternalLink href="https://gmxio.gitbook.io/gmx/trading#opening-a-position">
+                        <ExternalLink href="https://pulsemarketcap.info">
                           More Info
                         </ExternalLink>
                       </Trans>
@@ -2324,7 +2324,7 @@ export default function SwapBox(props) {
                         This exit price will change with the price of the asset.
                         <br />
                         <br />
-                        <ExternalLink href="https://gmxio.gitbook.io/gmx/trading#opening-a-position">
+                        <ExternalLink href="https://pulsemarketcap.info">
                           More Info
                         </ExternalLink>
                       </Trans>
@@ -2362,7 +2362,7 @@ export default function SwapBox(props) {
                         </div>
                       )}
                       <br />
-                      <ExternalLink href="https://gmxio.gitbook.io/gmx/trading#opening-a-position">
+                      <ExternalLink href="https://pulsemarketcap.info">
                         <Trans>More Info</Trans>
                       </ExternalLink>
                     </div>
